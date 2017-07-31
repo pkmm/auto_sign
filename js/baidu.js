@@ -104,5 +104,10 @@ function getAllTieba() {
         }
     });
 }
-
+// function f(){
+//   getAllTieba();
+//   setTimeout(f, 1000);
+// }
+// f();
+///getAllTieba();
 getAllTieba();

@@ -9,6 +9,12 @@
     "default_icon": "img/icon.png",
     "default_popup": "html/popup.html"
   },
+
+  "background": {
+    "persistent": true,
+    //"page": "background.html",
+      "scripts": ["js/jquery-3.2.1.min.js","js/baidu.js"]
+    },
   "permissions": [
     "activeTab",
     "background",
