@@ -19,6 +19,7 @@
     "activeTab",
     "background",
     "cookies",
+    "alarms",
     "<all_urls>",
     "*://*.baidu.com/*"
   ]

@@ -110,4 +110,14 @@ function getAllTieba() {
 // }
 // f();
 ///getAllTieba();
-getAllTieba();
+//getAllTieba();
+
+const period = 60 * 1;
+
+chrome.alarms.create("time_at", {
+    delayInMinutes:0,
+    periodInMinutes: period
+});
+chrome.alarms.onAlarm.addListener(function (ev) {
+    getAllTieba();
+});
