@@ -8,7 +8,9 @@ chrome.cookies.get({
   if(cookie.value) {
     hasLoginBaidu = true;
   }
-  console.log(cookie.value);
+  else {
+	  updatePopup('提示', '请你先在chrome中登陆一次百度的任何界面，然后再打开本程序');
+  }
 });
 
 function sign(keyWord) {
