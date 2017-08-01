@@ -76,7 +76,7 @@ function sign(keyWord) {
 }
 
 function updatePopup(name, msg){
-  $('#app').append(`<tr> <td>${name} </td>  <td>${msg} </td></tr>`);
+  $('#app').append(`<tr> <td width="40%">${name} </td>  <td width="60%">${msg} </td></tr>`);
 }
 
 function getAllTieba() {
@@ -112,12 +112,3 @@ function getAllTieba() {
 ///getAllTieba();
 //getAllTieba();
 
-const period = 60 * 1;
-
-chrome.alarms.create("time_at", {
-    delayInMinutes:0,
-    periodInMinutes: period
-});
-chrome.alarms.onAlarm.addListener(function (ev) {
-    getAllTieba();
-});

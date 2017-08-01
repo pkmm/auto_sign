@@ -12,8 +12,7 @@
 
   "background": {
     "persistent": true,
-    //"page": "background.html",
-      "scripts": ["js/jquery-3.2.1.min.js","js/baidu.js"]
+      "scripts": ["js/jquery-3.2.1.min.js", "js/baidu.js", "js/background.js"]
     },
   "permissions": [
     "activeTab",
