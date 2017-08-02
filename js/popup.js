@@ -1,6 +1,6 @@
 
 
-
+// from baidu.js file
 getAllTieba();
 
 $('#pkm').click(function () {
@@ -11,4 +11,6 @@ $('#pkm').click(function () {
         console.log(tab);
     });
 });
+
+
 
