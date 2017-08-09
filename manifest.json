@@ -21,6 +21,7 @@
     "alarms",
     "tabs",
     "<all_urls>",
-    "*://*.baidu.com/*"
+    "*://*.baidu.com/*",
+    "notifications"
   ]
 }
